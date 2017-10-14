@@ -34,3 +34,12 @@ hr {
 	border: 1px solid white;
 
 }
+
+.loginbt {
+	background-color: GhostWhite ;
+	margin-left: 4px;
+	margin-top: 4px;
+}
+#loginform {
+	color : black;
+}
