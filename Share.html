@@ -13,11 +13,9 @@
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 	<div class = container>
-	  <a class="navbar-brand" href="#"><img src="css/cooker.png" class="logo">Cook Share</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-
+		<div class="navbar-header">
+		 	<a class="navbar-brand" href="#"><img src="css/cooker.png" class="logo">Cook Share</a>	 
+		</div>
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav mr-auto">
 	    
@@ -27,7 +25,7 @@
 	      <li class="nav-item">
 	        <a class="nav-link" href="#">Contact</a>
 	      </li>
-		 <li class="navbar-form" role="search">
+		  <li class="navbar-form" role="search">
 		 
 		    <div class="input-group">
 		      <input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">	      
@@ -47,8 +45,8 @@
 	    </ul>
 	    -->
 		 </ul>
-	     <ul class="navbar-nav navbar-right ">
-	      <li class="nav-item ">
+	     <ul class="nav navbar-nav navbar-right">
+	      <li class="nav-item">
 	        <a class="nav-link" herf = "#"><i class="fa fa-plus" aria-hidden="true"></i> Add Your Cooking Guide</a>
 	      </li>
 	      <li class="nav-item dropdown">
@@ -57,18 +55,72 @@
 			  </a>
 			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 			    <a class="dropdown-item" href="#">Your Post</a>
-			    <a class="dropdown-item" href="#">Liked</a>
+			    <a class="dropdown-item" href="#">Edit</a>
 			    <a class="dropdown-item" href="#">Log Out</a>
 			  </div>
 	      </li>
 	    </ul>
-	   
-	   
 	  </div>
 	</div>
 	</nav>
 	<div class="container">
-		
+		<div class="row">
+			<div class="col-lg-9 style-col">
+				<div class = "CongThucNauAn">
+					<div class = "foodName" id ="foodName">
+						Fry Chicken
+					</div>
+					<div class="userDangBai" id = "userDangBai">
+						By <a href="abc" title="">Chien</a>
+					</div>
+					<img src="https://media.cooky.vn/recipe/g3/24782/s750x468/recipe-cover-r24782.jpg" alt="">
+					<div id = "NoiDung">
+						<div id = "NguyenLieu">
+
+							<p><b>Ingredients : </b></p>
+							<ul>
+								<li>Chicken : 2Kg</li>
+								<li> ... </li>
+							</ul>
+						</div>
+						<div id = "Description">
+							<p><b>Directions : </b></p>
+							<ul>
+								
+								<li>Step1 : Cut the whole chickens into 4 breasts, 4 thighs, 4 legs and 4 wings and set aside.</li>
+								<li>Step2 : Preheat your oil, in either a heavy pan on the stove or a deep-fryer, to 325 degrees F.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 style-col">	
+				<table class="table">
+					<thead>
+						<div class="caption-table">	
+								Top Contribute
+						</div>
+					    <tr>
+					      <th scope="col" class="col-number">#</th>
+					      <th scope="col" class="col-User">User</th>
+					      <th scope="col" class="col-rate">Rate</th>
+					    </tr>
+					</thead>
+					<tbody>
+						<tr>
+						  <td scope="col" class="col-number">1</td>
+					      <td scope="col" class="col-User"><a href="#">Bitagi</a></td>
+					      <td scope="col" class="col-rate">6962</td>
+						</tr>
+						<tr>
+						  <td scope="col" class="col-number">2</td>
+					      <td scope="col" class="col-User"><a href="#">Chien</a></td>
+					      <td scope="col" class="col-rate">5962</td>
+						</tr>
+					</tbody>			
+				</table>
+			</div>
+		</div>	
 	</div>
 	
 	<div class="modal fade container" id = "loginform"  aria-hidden="true">
