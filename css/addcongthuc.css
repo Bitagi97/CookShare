@@ -45,3 +45,14 @@ hr {
     padding-top: 30px;
     font-size: 14px;
 }
+.submitConthuc {
+	padding:6px	;
+	width: 200px;
+	margin-left: 41%;
+	background-color: #252121;
+}
+
+.submitConthuc:hover {
+	
+	background-color: #5A1111;
+}
