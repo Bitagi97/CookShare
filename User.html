@@ -6,7 +6,7 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" >
 	<link rel="stylesheet" href="css/Share.css">
-	<link rel="stylesheet" href="css/addcongthuc.css">
+	<link rel="stylesheet" href="css/user.css">
 	
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,7 +15,7 @@
 
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light" data-offset-top="0">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
 	<div class = container>
 		<div class="navbar-header">
 		 	<a class="navbar-brand" href="#"><img src="css/cooker.png" class="logo">Cook Share</a>	 
@@ -68,35 +68,91 @@
 	</div>
 	</nav>
 	<div class="container">
-		<div class="jumbotron">
-			<h3><i class="fa fa-cutlery" aria-hidden="true"></i> Add Your Recipe</h3>
-			<hr>
-		</div>
-		<form>
-		<div class="row has-feedback">
-			<div class="col-lg-12 form-group">
-				<label for = "food-image" class = "labelName"> Add your photo</label>
-				<input type="file" name = "food-image" class="form-control-file" >	
+		<div class="row">
+			<div class="col-lg-3 style-col infor ">
+				<div class = "avartar">
+					<img src="https://media2.s-nbcnews.com/j/newscms/2017_10/1200227/10-healthy-fast-food-meals-001-burger-king-whopper-jr-inline-today-170309_89a32509f1b93e969a831a913cc2a2d1.today-inline-large.jpg"  alt="">
+				</div>	
+				<div class="nameInfor">
+					 <h4>bitagi97</h4>
+				</div>
+				<div class="basicInfor">
+						<span>#rate : 1</span>
+						<span>#post: 200</span>
+				</div>
 			</div>
-	    </div>
-	    
-		<div class = "row has-feedback">
-			<div class="col-lg-12 form-group">
-				<label class = "labelName" for ="food_Name">Food Name</label>
-				<br>
-				<input type="text" name="food_Name" class="form_addFood">	
+				
+			<div class="col-lg-9 style-col postUser">	
+				<div class = "CongThucNauAn">
+					<div class = "foodName" id ="foodName">
+						<h3>Fry Chicken</h3>
+					</div>
+					
+					<div class="userDangBai" id = "postDate">
+						<a href="abc" title="">October 19 </a>
+					</div>
+					
+					<div id = "NoiDung">
+						
+						<div id = "Description">
+							<p><b>Description : </b></p>
+							<p>If you've been wondering how to make fried chicken, make this recipe your go-to. Always a picnic favorite, this chicken is delicious either hot or cold </p>
+							
+						</div>
+						<img class = "thumbnail" src="https://media.cooky.vn/recipe/g3/24782/s750x468/recipe-cover-r24782.jpg" alt="">
+						<div id = "ingredients">
+							<p><b>Ingredients : </b></p>
+							<ul>
+								<li>2 tablespoons extra-virgin olive oil</li>
+								<li>1 tablespoon butter</li>
+							</ul>
+						</div>
+						<div id = "detail">
+							<p><b>Directions : </b></p>
+							<ul>
+								<li>Step1 : ...</li>
+								<li>Step2 : ...</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<!--                 sdf   -->
+				<div class = "CongThucNauAn">
+					<div class = "foodName" id ="foodName">
+						<h3>Fry Chicken</h3>
+					</div>
+					
+					<div class="userDangBai" id = "postDate">
+						<a href="abc" title="">October 19 </a>
+					</div>
+					
+					<div id = "NoiDung">
+						
+						<div id = "Description">
+							<p><b>Description : </b></p>
+							<p>If you've been wondering how to make fried chicken, make this recipe your go-to. Always a picnic favorite, this chicken is delicious either hot or cold </p>
+							
+						</div>
+						<img class = "thumbnail" src="https://media.cooky.vn/recipe/g3/24782/s750x468/recipe-cover-r24782.jpg" alt="">
+						<div id = "ingredients">
+							<p><b>Ingredients : </b></p>
+							<ul>
+								<li>2 tablespoons extra-virgin olive oil</li>
+								<li>1 tablespoon butter</li>
+							</ul>
+						</div>
+						<div id = "detail">
+							<p><b>Directions : </b></p>
+							<ul>
+								<li>Step1 : ...</li>
+								<li>Step2 : ...</li>
+							</ul>
+						</div>
+					</div>  <!-- Nodung -->
+				</div>	
 			</div>
-		</div>
-		<div class = "row has-feedback">
-			<div class="col-lg-12 form-group">
-				<label class = "labelName" for ="food_Des">Description</label>
-				<br>
-				<textarea type="text" name="food_Des" class="form_addFood"></textarea>
-			</div>
-		</div>
-		<button type="submit" class="btn btn-primary submitConthuc" data-dismiss = 'modal' >Save</button>
-	   </form>
-	</div>
+	</div>	
 
 	<script type= "text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>

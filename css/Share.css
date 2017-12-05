@@ -16,7 +16,7 @@ body {
 	background-size: cover;
 	background-position: center;
 	font-family: Lato;
-	color:  white;
+	
 }
 h1 {
 	font-weight:  700;
@@ -99,7 +99,11 @@ table {
 	font-weight: bold;
 	font-size: 18px;
 }
+.foodName>h3 {
+	color: black;
+	font-weight: bold;
 
+}
 .userDangBai {
 	color: black;
 	color: #A39C9C;
@@ -128,4 +132,8 @@ table {
 	
 	color: #A39C9C;
 	font-size: 15px;
+}
+
+.black_font {
+	color : black;
 }
