@@ -85,7 +85,8 @@
 			<div class="col-lg-9 style-col postUser">	
 				<div class = "CongThucNauAn">
 					<div class = "foodName" id ="foodName">
-						<h3>Fry Chicken</h3>
+						<h3>Fry Chicken <i onclick="likeFunc(this)" class="fa fa-heart likeStyle"></i></h3> 
+
 					</div>
 					
 					<div class="userDangBai" id = "postDate">
@@ -120,7 +121,7 @@
 				<!--                 sdf   -->
 				<div class = "CongThucNauAn">
 					<div class = "foodName" id ="foodName">
-						<h3>Fry Chicken</h3>
+						<h3>Fry Chicken<i onclick="likeFunc(this)" class="fa fa-heart likeStyle"></i></h3>
 					</div>
 					
 					<div class="userDangBai" id = "postDate">
@@ -156,6 +157,10 @@
 
 	<script type= "text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
-	
+	<script>
+	function likeFunc(x) {
+	    x.classList.toggle("red");
+	}
+</script>
 </body>
 </html>

@@ -36,3 +36,7 @@
 	border-left: 3px solid #D3CACA;
 	padding-left: 15px;
 }
+
+.red {
+	color : rgba(226, 32, 32, 0.84);
+}
